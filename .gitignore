@@ -57,3 +57,6 @@ DMX-Dimmer-I2C.X/dist/default/production/DMX-Dimmer-I2C.X.production.sdb
 DMX-Dimmer-I2C.X/dist/default/production/DMX-Dimmer-I2C.X.production.rlf
 DMX-Dimmer-I2C.X/dist/default/production/DMX-Dimmer-I2C.X.production.lst
 DMX-Dimmer-I2C.X/dist/default/production/DMX-Dimmer-I2C.X.production.cmf
+/__DMX-Dimmer-I2C.X
+/DMX-Dimmer-I2C.X/build
+.DS_Store
