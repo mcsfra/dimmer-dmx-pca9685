@@ -11,7 +11,8 @@ void interrupt high_isr(void)  {
 }
 */
 
-void high_priority interrupt high_isr(void)  {
+//void high_priority interrupt high_isr(void)  {
+void __interrupt(high_priority) high_isr(void)  {
 
     /*
      * DMX- Eingangsdatenstrom
@@ -29,7 +30,8 @@ void high_priority interrupt high_isr(void)  {
 ** Low prio Interrupt
 */
 
-void low_priority interrupt low_isr(void)  {
+//void low_priority interrupt low_isr(void)  {
+void __interrupt(low_priority) low_isr(void)  {
 
     /*
      * DMX- Eingangsdatenstrom

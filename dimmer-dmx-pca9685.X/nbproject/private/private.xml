@@ -10,6 +10,8 @@
         </group>
         <group name="HomeAutomation, Controller, Sensors"/>
         <group name="Midi and Modular"/>
-        <group/>
+        <group>
+            <file>file:/Users/mcs-f/projekte/dimmer-dmx-pca9685/dimmer-dmx-pca9685.X/interrupts.c</file>
+        </group>
     </open-files>
 </project-private>

@@ -60,3 +60,4 @@ DMX-Dimmer-I2C.X/dist/default/production/DMX-Dimmer-I2C.X.production.cmf
 /__DMX-Dimmer-I2C.X
 /DMX-Dimmer-I2C.X/build
 .DS_Store
+/dimmer-dmx-pca9685.X/dist/

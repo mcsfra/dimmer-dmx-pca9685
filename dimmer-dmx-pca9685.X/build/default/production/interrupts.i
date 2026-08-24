@@ -1,49 +1,49 @@
 # 1 "interrupts.c"
 # 1 "<built-in>" 1
 # 1 "<built-in>" 3
-# 284 "<built-in>" 3
+# 294 "<built-in>" 3
 # 1 "<command line>" 1
 # 1 "<built-in>" 2
-# 1 "/Applications/microchip/xc8/v3.00/pic/include/language_support.h" 1 3
-# 29 "/Applications/microchip/xc8/v3.00/pic/include/language_support.h" 3
+# 1 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/language_support.h" 1 3
+# 51 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/language_support.h" 3
 // set _HTC_EDITION_ and _XC8_MODE_ macros for backwards compatibility
 # 2 "<built-in>" 2
 # 1 "interrupts.c" 2
-# 1 "/Applications/microchip/xc8/v3.00/pic/include/xc.h" 1 3
-# 18 "/Applications/microchip/xc8/v3.00/pic/include/xc.h" 3
+# 1 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/xc.h" 1 3
+# 18 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/xc.h" 3
 extern const char __xc8_OPTIM_SPEED;
 
 extern double __fpnormalize(double);
 
 
-# 1 "/Applications/microchip/xc8/v3.00/pic/include/c99/xc8debug.h" 1 3
+# 1 "/Applications/microchip/xc8/v3.10/pic/include/c99/xc8debug.h" 1 3
 
 
 
-# 1 "/Applications/microchip/xc8/v3.00/pic/include/c99/stdlib.h" 1 3
+# 1 "/Applications/microchip/xc8/v3.10/pic/include/c99/stdlib.h" 1 3
 
 
 
-# 1 "/Applications/microchip/xc8/v3.00/pic/include/c99/musl_xc8.h" 1 3
-# 5 "/Applications/microchip/xc8/v3.00/pic/include/c99/stdlib.h" 2 3
+# 1 "/Applications/microchip/xc8/v3.10/pic/include/c99/musl_xc8.h" 1 3
+# 5 "/Applications/microchip/xc8/v3.10/pic/include/c99/stdlib.h" 2 3
 
 
 
 
 
-# 1 "/Applications/microchip/xc8/v3.00/pic/include/c99/features.h" 1 3
-# 11 "/Applications/microchip/xc8/v3.00/pic/include/c99/stdlib.h" 2 3
-# 21 "/Applications/microchip/xc8/v3.00/pic/include/c99/stdlib.h" 3
-# 1 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 1 3
-# 24 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 3
+# 1 "/Applications/microchip/xc8/v3.10/pic/include/c99/features.h" 1 3
+# 11 "/Applications/microchip/xc8/v3.10/pic/include/c99/stdlib.h" 2 3
+# 21 "/Applications/microchip/xc8/v3.10/pic/include/c99/stdlib.h" 3
+# 1 "/Applications/microchip/xc8/v3.10/pic/include/c99/bits/alltypes.h" 1 3
+# 24 "/Applications/microchip/xc8/v3.10/pic/include/c99/bits/alltypes.h" 3
 typedef long int wchar_t;
-# 128 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 3
+# 128 "/Applications/microchip/xc8/v3.10/pic/include/c99/bits/alltypes.h" 3
 typedef unsigned size_t;
-# 174 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 3
+# 174 "/Applications/microchip/xc8/v3.10/pic/include/c99/bits/alltypes.h" 3
 typedef __int24 int24_t;
-# 210 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 3
+# 210 "/Applications/microchip/xc8/v3.10/pic/include/c99/bits/alltypes.h" 3
 typedef __uint24 uint24_t;
-# 22 "/Applications/microchip/xc8/v3.00/pic/include/c99/stdlib.h" 2 3
+# 22 "/Applications/microchip/xc8/v3.10/pic/include/c99/stdlib.h" 2 3
 
 int atoi (const char *);
 long atol (const char *);
@@ -69,7 +69,7 @@ unsigned long long strtoull (const char *, char **, int);
 unsigned long __strtoxl(const char * s, char ** endptr, int base, char is_signed);
 
 unsigned long long __strtoxll(const char * s, char ** endptr, int base, char is_signed);
-# 55 "/Applications/microchip/xc8/v3.00/pic/include/c99/stdlib.h" 3
+# 55 "/Applications/microchip/xc8/v3.10/pic/include/c99/stdlib.h" 3
 int rand (void);
 void srand (unsigned);
 
@@ -115,7 +115,7 @@ typedef struct { unsigned int quot, rem; } udiv_t;
 typedef struct { unsigned long quot, rem; } uldiv_t;
 udiv_t udiv (unsigned int, unsigned int);
 uldiv_t uldiv (unsigned long, unsigned long);
-# 5 "/Applications/microchip/xc8/v3.00/pic/include/c99/xc8debug.h" 2 3
+# 5 "/Applications/microchip/xc8/v3.10/pic/include/c99/xc8debug.h" 2 3
 
 
 
@@ -125,26 +125,26 @@ uldiv_t uldiv (unsigned long, unsigned long);
 
 #pragma intrinsic(__builtin_software_breakpoint)
 extern void __builtin_software_breakpoint(void);
-# 24 "/Applications/microchip/xc8/v3.00/pic/include/xc.h" 2 3
-# 1 "/Applications/microchip/xc8/v3.00/pic/include/builtins.h" 1 3
+# 24 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/xc.h" 2 3
+# 1 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/builtins.h" 1 3
 
 
 
-# 1 "/Applications/microchip/xc8/v3.00/pic/include/c99/stdint.h" 1 3
-# 26 "/Applications/microchip/xc8/v3.00/pic/include/c99/stdint.h" 3
-# 1 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 1 3
-# 133 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 3
+# 1 "/Applications/microchip/xc8/v3.10/pic/include/c99/stdint.h" 1 3
+# 26 "/Applications/microchip/xc8/v3.10/pic/include/c99/stdint.h" 3
+# 1 "/Applications/microchip/xc8/v3.10/pic/include/c99/bits/alltypes.h" 1 3
+# 133 "/Applications/microchip/xc8/v3.10/pic/include/c99/bits/alltypes.h" 3
 typedef unsigned __int24 uintptr_t;
-# 148 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 3
+# 148 "/Applications/microchip/xc8/v3.10/pic/include/c99/bits/alltypes.h" 3
 typedef __int24 intptr_t;
-# 164 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 3
+# 164 "/Applications/microchip/xc8/v3.10/pic/include/c99/bits/alltypes.h" 3
 typedef signed char int8_t;
 
 
 
 
 typedef short int16_t;
-# 179 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 3
+# 179 "/Applications/microchip/xc8/v3.10/pic/include/c99/bits/alltypes.h" 3
 typedef long int32_t;
 
 
@@ -152,7 +152,7 @@ typedef long int32_t;
 
 
 typedef long long int64_t;
-# 194 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 3
+# 194 "/Applications/microchip/xc8/v3.10/pic/include/c99/bits/alltypes.h" 3
 typedef long long intmax_t;
 
 
@@ -165,7 +165,7 @@ typedef unsigned char uint8_t;
 
 
 typedef unsigned short uint16_t;
-# 215 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 3
+# 215 "/Applications/microchip/xc8/v3.10/pic/include/c99/bits/alltypes.h" 3
 typedef unsigned long uint32_t;
 
 
@@ -173,9 +173,9 @@ typedef unsigned long uint32_t;
 
 
 typedef unsigned long long uint64_t;
-# 235 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/alltypes.h" 3
+# 235 "/Applications/microchip/xc8/v3.10/pic/include/c99/bits/alltypes.h" 3
 typedef unsigned long long uintmax_t;
-# 27 "/Applications/microchip/xc8/v3.00/pic/include/c99/stdint.h" 2 3
+# 27 "/Applications/microchip/xc8/v3.10/pic/include/c99/stdint.h" 2 3
 
 typedef int8_t int_fast8_t;
 
@@ -207,26 +207,18 @@ typedef uint24_t uint_fast24_t;
 typedef uint32_t uint_least32_t;
 
 typedef uint64_t uint_least64_t;
-# 148 "/Applications/microchip/xc8/v3.00/pic/include/c99/stdint.h" 3
-# 1 "/Applications/microchip/xc8/v3.00/pic/include/c99/bits/stdint.h" 1 3
+# 148 "/Applications/microchip/xc8/v3.10/pic/include/c99/stdint.h" 3
+# 1 "/Applications/microchip/xc8/v3.10/pic/include/c99/bits/stdint.h" 1 3
 typedef int16_t int_fast16_t;
 typedef int32_t int_fast32_t;
 typedef uint16_t uint_fast16_t;
 typedef uint32_t uint_fast32_t;
-# 149 "/Applications/microchip/xc8/v3.00/pic/include/c99/stdint.h" 2 3
-# 5 "/Applications/microchip/xc8/v3.00/pic/include/builtins.h" 2 3
+# 149 "/Applications/microchip/xc8/v3.10/pic/include/c99/stdint.h" 2 3
+# 5 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/builtins.h" 2 3
 
 // builtin version of nop
 #pragma intrinsic(__nop)
 extern void __nop(void);
-
-#pragma intrinsic(__nopf000)
-extern void __nopf000(void);
-#pragma intrinsic(__nopffff)
-extern void __nopffff(void);
-#pragma intrinsic(__nop0000)
-extern void __nop0000(void);
-
 
 // builtin delay functions
 #pragma intrinsic(_delay)
@@ -239,7 +231,7 @@ extern __attribute__((nonreentrant)) void _delay3(uint8_t);
 
 
 // NOTE: To use the macros below, YOU must have previously defined _XTAL_FREQ
-# 25 "/Applications/microchip/xc8/v3.00/pic/include/xc.h" 2 3
+# 25 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/xc.h" 2 3
 
 
 
@@ -248,31 +240,28 @@ extern __attribute__((nonreentrant)) void _delay3(uint8_t);
 
 
 
-# 1 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/pic18.h" 1 3
+# 1 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/pic18.h" 1 3
 
 
 
 
-# 1 "/Applications/microchip/xc8/v3.00/pic/include/htc.h" 1 3
+# 1 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/htc.h" 1 3
 
 
 
+# 1 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/xc.h" 1 3
+# 5 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/htc.h" 2 3
+# 6 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/pic18.h" 2 3
 
 
-
-# 1 "/Applications/microchip/xc8/v3.00/pic/include/xc.h" 1 3
-# 8 "/Applications/microchip/xc8/v3.00/pic/include/htc.h" 2 3
-# 6 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/pic18.h" 2 3
-
-
-# 1 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/pic18_chip_select.h" 1 3
-// Generated 12/10/2023 GMT
-# 49 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/pic18_chip_select.h" 3
-# 1 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 1 3
-// Generated 12/10/2023 GMT
-# 44 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
-# 1 "/Applications/microchip/xc8/v3.00/pic/include/__at.h" 1 3
-# 45 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 2 3
+# 1 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/pic18_chip_select.h" 1 3
+// Generated 06/04/2022 GMT
+# 49 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/pic18_chip_select.h" 3
+# 1 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 1 3
+// Generated 06/04/2022 GMT
+# 44 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
+# 1 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/__at.h" 1 3
+# 45 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 2 3
 
 
 
@@ -303,7 +292,7 @@ typedef union {
 } SRCON0bits_t;
 extern volatile SRCON0bits_t SRCON0bits __attribute__((address(0xF68)));
 // bitfield macros
-# 121 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 121 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: SRCON1
 
 extern volatile unsigned char SRCON1 __attribute__((address(0xF69)));
@@ -325,7 +314,7 @@ typedef union {
 } SRCON1bits_t;
 extern volatile SRCON1bits_t SRCON1bits __attribute__((address(0xF69)));
 // bitfield macros
-# 183 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 183 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: CM2CON0
 
 extern volatile unsigned char CM2CON0 __attribute__((address(0xF6B)));
@@ -350,7 +339,7 @@ typedef union {
 } CM2CON0bits_t;
 extern volatile CM2CON0bits_t CM2CON0bits __attribute__((address(0xF6B)));
 // bitfield macros
-# 253 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 253 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: CM2CON1
 
 extern volatile unsigned char CM2CON1 __attribute__((address(0xF6C)));
@@ -372,7 +361,7 @@ typedef union {
 } CM2CON1bits_t;
 extern volatile CM2CON1bits_t CM2CON1bits __attribute__((address(0xF6C)));
 // bitfield macros
-# 315 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 315 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: CM1CON0
 
 extern volatile unsigned char CM1CON0 __attribute__((address(0xF6D)));
@@ -397,7 +386,7 @@ typedef union {
 } CM1CON0bits_t;
 extern volatile CM1CON0bits_t CM1CON0bits __attribute__((address(0xF6D)));
 // bitfield macros
-# 385 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 385 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: SSPMSK
 
 extern volatile unsigned char SSPMSK __attribute__((address(0xF6F)));
@@ -427,7 +416,7 @@ typedef union {
 } SSPMSKbits_t;
 extern volatile SSPMSKbits_t SSPMSKbits __attribute__((address(0xF6F)));
 // bitfield macros
-# 459 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 459 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // alias bitfield definitions
 typedef union {
     struct {
@@ -446,7 +435,7 @@ typedef union {
 } SSPMASKbits_t;
 extern volatile SSPMASKbits_t SSPMASKbits __attribute__((address(0xF6F)));
 // bitfield macros
-# 523 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 523 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: SLRCON
 
 extern volatile unsigned char SLRCON __attribute__((address(0xF76)));
@@ -463,7 +452,7 @@ typedef union {
 } SLRCONbits_t;
 extern volatile SLRCONbits_t SLRCONbits __attribute__((address(0xF76)));
 // bitfield macros
-# 555 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 555 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: WPUA
 
 extern volatile unsigned char WPUA __attribute__((address(0xF77)));
@@ -486,7 +475,7 @@ typedef union {
 } WPUAbits_t;
 extern volatile WPUAbits_t WPUAbits __attribute__((address(0xF77)));
 // bitfield macros
-# 613 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 613 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: WPUB
 
 extern volatile unsigned char WPUB __attribute__((address(0xF78)));
@@ -509,7 +498,7 @@ typedef union {
 } WPUBbits_t;
 extern volatile WPUBbits_t WPUBbits __attribute__((address(0xF78)));
 // bitfield macros
-# 661 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 661 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: IOCA
 
 extern volatile unsigned char IOCA __attribute__((address(0xF79)));
@@ -532,7 +521,7 @@ typedef union {
 } IOCAbits_t;
 extern volatile IOCAbits_t IOCAbits __attribute__((address(0xF79)));
 // bitfield macros
-# 719 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 719 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: IOCB
 
 extern volatile unsigned char IOCB __attribute__((address(0xF7A)));
@@ -555,7 +544,7 @@ typedef union {
 } IOCBbits_t;
 extern volatile IOCBbits_t IOCBbits __attribute__((address(0xF7A)));
 // bitfield macros
-# 767 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 767 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: ANSEL
 
 extern volatile unsigned char ANSEL __attribute__((address(0xF7E)));
@@ -590,7 +579,7 @@ typedef union {
 } ANSELbits_t;
 extern volatile ANSELbits_t ANSELbits __attribute__((address(0xF7E)));
 // bitfield macros
-# 887 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 887 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: ANSELH
 
 extern volatile unsigned char ANSELH __attribute__((address(0xF7F)));
@@ -617,7 +606,7 @@ typedef union {
 } ANSELHbits_t;
 extern volatile ANSELHbits_t ANSELHbits __attribute__((address(0xF7F)));
 // bitfield macros
-# 959 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 959 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: PORTA
 
 extern volatile unsigned char PORTA __attribute__((address(0xF80)));
@@ -686,7 +675,7 @@ typedef union {
 } PORTAbits_t;
 extern volatile PORTAbits_t PORTAbits __attribute__((address(0xF80)));
 // bitfield macros
-# 1193 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 1193 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: PORTB
 
 extern volatile unsigned char PORTB __attribute__((address(0xF81)));
@@ -724,7 +713,7 @@ typedef union {
 } PORTBbits_t;
 extern volatile PORTBbits_t PORTBbits __attribute__((address(0xF81)));
 // bitfield macros
-# 1301 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 1301 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: PORTC
 
 extern volatile unsigned char PORTC __attribute__((address(0xF82)));
@@ -793,7 +782,7 @@ typedef union {
 } PORTCbits_t;
 extern volatile PORTCbits_t PORTCbits __attribute__((address(0xF82)));
 // bitfield macros
-# 1540 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 1540 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: LATA
 
 extern volatile unsigned char LATA __attribute__((address(0xF89)));
@@ -821,7 +810,7 @@ typedef union {
 } LATAbits_t;
 extern volatile LATAbits_t LATAbits __attribute__((address(0xF89)));
 // bitfield macros
-# 1618 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 1618 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: LATB
 
 extern volatile unsigned char LATB __attribute__((address(0xF8A)));
@@ -847,7 +836,7 @@ typedef union {
 } LATBbits_t;
 extern volatile LATBbits_t LATBbits __attribute__((address(0xF8A)));
 // bitfield macros
-# 1684 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 1684 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: LATC
 
 extern volatile unsigned char LATC __attribute__((address(0xF8B)));
@@ -879,7 +868,7 @@ typedef union {
 } LATCbits_t;
 extern volatile LATCbits_t LATCbits __attribute__((address(0xF8B)));
 // bitfield macros
-# 1796 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 1796 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: TRISA
 
 extern volatile unsigned char TRISA __attribute__((address(0xF92)));
@@ -912,7 +901,7 @@ typedef union {
 } TRISAbits_t;
 extern volatile TRISAbits_t TRISAbits __attribute__((address(0xF92)));
 // bitfield macros
-# 1878 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 1878 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // alias bitfield definitions
 typedef union {
     struct {
@@ -934,7 +923,7 @@ typedef union {
 } DDRAbits_t;
 extern volatile DDRAbits_t DDRAbits __attribute__((address(0xF92)));
 // bitfield macros
-# 1950 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 1950 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: TRISB
 
 extern volatile unsigned char TRISB __attribute__((address(0xF93)));
@@ -965,7 +954,7 @@ typedef union {
 } TRISBbits_t;
 extern volatile TRISBbits_t TRISBbits __attribute__((address(0xF93)));
 // bitfield macros
-# 2020 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 2020 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // alias bitfield definitions
 typedef union {
     struct {
@@ -985,7 +974,7 @@ typedef union {
 } DDRBbits_t;
 extern volatile DDRBbits_t DDRBbits __attribute__((address(0xF93)));
 // bitfield macros
-# 2080 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 2080 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: TRISC
 
 extern volatile unsigned char TRISC __attribute__((address(0xF94)));
@@ -1022,7 +1011,7 @@ typedef union {
 } TRISCbits_t;
 extern volatile TRISCbits_t TRISCbits __attribute__((address(0xF94)));
 // bitfield macros
-# 2196 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 2196 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // alias bitfield definitions
 typedef union {
     struct {
@@ -1048,7 +1037,7 @@ typedef union {
 } DDRCbits_t;
 extern volatile DDRCbits_t DDRCbits __attribute__((address(0xF94)));
 // bitfield macros
-# 2302 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 2302 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: OSCTUNE
 
 extern volatile unsigned char OSCTUNE __attribute__((address(0xF9B)));
@@ -1073,7 +1062,7 @@ typedef union {
 } OSCTUNEbits_t;
 extern volatile OSCTUNEbits_t OSCTUNEbits __attribute__((address(0xF9B)));
 // bitfield macros
-# 2372 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 2372 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: PIE1
 
 extern volatile unsigned char PIE1 __attribute__((address(0xF9D)));
@@ -1099,7 +1088,7 @@ typedef union {
 } PIE1bits_t;
 extern volatile PIE1bits_t PIE1bits __attribute__((address(0xF9D)));
 // bitfield macros
-# 2443 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 2443 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: PIR1
 
 extern volatile unsigned char PIR1 __attribute__((address(0xF9E)));
@@ -1125,7 +1114,7 @@ typedef union {
 } PIR1bits_t;
 extern volatile PIR1bits_t PIR1bits __attribute__((address(0xF9E)));
 // bitfield macros
-# 2514 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 2514 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: IPR1
 
 extern volatile unsigned char IPR1 __attribute__((address(0xF9F)));
@@ -1151,7 +1140,7 @@ typedef union {
 } IPR1bits_t;
 extern volatile IPR1bits_t IPR1bits __attribute__((address(0xF9F)));
 // bitfield macros
-# 2585 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 2585 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: PIE2
 
 extern volatile unsigned char PIE2 __attribute__((address(0xFA0)));
@@ -1177,7 +1166,7 @@ typedef union {
 } PIE2bits_t;
 extern volatile PIE2bits_t PIE2bits __attribute__((address(0xFA0)));
 // bitfield macros
-# 2646 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 2646 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: PIR2
 
 extern volatile unsigned char PIR2 __attribute__((address(0xFA1)));
@@ -1203,7 +1192,7 @@ typedef union {
 } PIR2bits_t;
 extern volatile PIR2bits_t PIR2bits __attribute__((address(0xFA1)));
 // bitfield macros
-# 2707 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 2707 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: IPR2
 
 extern volatile unsigned char IPR2 __attribute__((address(0xFA2)));
@@ -1229,7 +1218,7 @@ typedef union {
 } IPR2bits_t;
 extern volatile IPR2bits_t IPR2bits __attribute__((address(0xFA2)));
 // bitfield macros
-# 2768 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 2768 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: EECON1
 
 extern volatile unsigned char EECON1 __attribute__((address(0xFA6)));
@@ -1255,7 +1244,7 @@ typedef union {
 } EECON1bits_t;
 extern volatile EECON1bits_t EECON1bits __attribute__((address(0xFA6)));
 // bitfield macros
-# 2834 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 2834 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: EECON2
 
 extern volatile unsigned char EECON2 __attribute__((address(0xFA7)));
@@ -1291,7 +1280,7 @@ typedef union {
 } EEADRbits_t;
 extern volatile EEADRbits_t EEADRbits __attribute__((address(0xFA9)));
 // bitfield macros
-# 2910 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 2910 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: RCSTA
 
 extern volatile unsigned char RCSTA __attribute__((address(0xFAB)));
@@ -1337,7 +1326,7 @@ typedef union {
 } RCSTAbits_t;
 extern volatile RCSTAbits_t RCSTAbits __attribute__((address(0xFAB)));
 // bitfield macros
-# 3020 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 3020 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // alias bitfield definitions
 typedef union {
     struct {
@@ -1372,7 +1361,7 @@ typedef union {
 } RCSTA1bits_t;
 extern volatile RCSTA1bits_t RCSTA1bits __attribute__((address(0xFAB)));
 // bitfield macros
-# 3120 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 3120 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: TXSTA
 
 extern volatile unsigned char TXSTA __attribute__((address(0xFAC)));
@@ -1416,7 +1405,7 @@ typedef union {
 } TXSTAbits_t;
 extern volatile TXSTAbits_t TXSTAbits __attribute__((address(0xFAC)));
 // bitfield macros
-# 3253 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 3253 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // alias bitfield definitions
 typedef union {
     struct {
@@ -1449,7 +1438,7 @@ typedef union {
 } TXSTA1bits_t;
 extern volatile TXSTA1bits_t TXSTA1bits __attribute__((address(0xFAC)));
 // bitfield macros
-# 3376 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 3376 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: TXREG
 
 extern volatile unsigned char TXREG __attribute__((address(0xFAD)));
@@ -1534,7 +1523,7 @@ typedef union {
 } T3CONbits_t;
 extern volatile T3CONbits_t T3CONbits __attribute__((address(0xFB1)));
 // bitfield macros
-# 3526 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 3526 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: TMR3
 
 extern volatile unsigned short TMR3 __attribute__((address(0xFB2)));
@@ -1582,7 +1571,7 @@ typedef union {
 } ECCP1ASbits_t;
 extern volatile ECCP1ASbits_t ECCP1ASbits __attribute__((address(0xFB6)));
 // bitfield macros
-# 3629 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 3629 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: PWM1CON
 
 extern volatile unsigned char PWM1CON __attribute__((address(0xFB7)));
@@ -1607,7 +1596,7 @@ typedef union {
 } PWM1CONbits_t;
 extern volatile PWM1CONbits_t PWM1CONbits __attribute__((address(0xFB7)));
 // bitfield macros
-# 3699 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 3699 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: BAUDCON
 
 extern volatile unsigned char BAUDCON __attribute__((address(0xFB8)));
@@ -1646,7 +1635,7 @@ typedef union {
 } BAUDCONbits_t;
 extern volatile BAUDCONbits_t BAUDCONbits __attribute__((address(0xFB8)));
 // bitfield macros
-# 3787 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 3787 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // alias bitfield definitions
 typedef union {
     struct {
@@ -1674,7 +1663,7 @@ typedef union {
 } BAUDCTLbits_t;
 extern volatile BAUDCTLbits_t BAUDCTLbits __attribute__((address(0xFB8)));
 // bitfield macros
-# 3865 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 3865 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: PSTRCON
 
 extern volatile unsigned char PSTRCON __attribute__((address(0xFB9)));
@@ -1693,7 +1682,7 @@ typedef union {
 } PSTRCONbits_t;
 extern volatile PSTRCONbits_t PSTRCONbits __attribute__((address(0xFB9)));
 // bitfield macros
-# 3909 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 3909 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: VREFCON0
 
 extern volatile unsigned char VREFCON0 __attribute__((address(0xFBA)));
@@ -1718,7 +1707,7 @@ typedef union {
 } VREFCON0bits_t;
 extern volatile VREFCON0bits_t VREFCON0bits __attribute__((address(0xFBA)));
 // bitfield macros
-# 3953 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 3953 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // alias bitfield definitions
 typedef union {
     struct {
@@ -1732,7 +1721,7 @@ typedef union {
 } REFCON0bits_t;
 extern volatile REFCON0bits_t REFCON0bits __attribute__((address(0xFBA)));
 // bitfield macros
-# 3987 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 3987 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: VREFCON1
 
 extern volatile unsigned char VREFCON1 __attribute__((address(0xFBB)));
@@ -1764,7 +1753,7 @@ typedef union {
 } VREFCON1bits_t;
 extern volatile VREFCON1bits_t VREFCON1bits __attribute__((address(0xFBB)));
 // bitfield macros
-# 4058 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 4058 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // alias bitfield definitions
 typedef union {
     struct {
@@ -1785,7 +1774,7 @@ typedef union {
 } REFCON1bits_t;
 extern volatile REFCON1bits_t REFCON1bits __attribute__((address(0xFBB)));
 // bitfield macros
-# 4119 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 4119 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: VREFCON2
 
 extern volatile unsigned char VREFCON2 __attribute__((address(0xFBC)));
@@ -1812,7 +1801,7 @@ typedef union {
 } VREFCON2bits_t;
 extern volatile VREFCON2bits_t VREFCON2bits __attribute__((address(0xFBC)));
 // bitfield macros
-# 4175 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 4175 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // alias bitfield definitions
 typedef union {
     struct {
@@ -1828,7 +1817,7 @@ typedef union {
 } REFCON2bits_t;
 extern volatile REFCON2bits_t REFCON2bits __attribute__((address(0xFBC)));
 // bitfield macros
-# 4221 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 4221 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: CCP1CON
 
 extern volatile unsigned char CCP1CON __attribute__((address(0xFBD)));
@@ -1855,7 +1844,7 @@ typedef union {
 } CCP1CONbits_t;
 extern volatile CCP1CONbits_t CCP1CONbits __attribute__((address(0xFBD)));
 // bitfield macros
-# 4303 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 4303 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: CCPR1
 
 extern volatile unsigned short CCPR1 __attribute__((address(0xFBE)));
@@ -1902,7 +1891,7 @@ typedef union {
 } ADCON2bits_t;
 extern volatile ADCON2bits_t ADCON2bits __attribute__((address(0xFC0)));
 // bitfield macros
-# 4395 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 4395 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: ADCON1
 
 extern volatile unsigned char ADCON1 __attribute__((address(0xFC1)));
@@ -1928,7 +1917,7 @@ typedef union {
 } ADCON1bits_t;
 extern volatile ADCON1bits_t ADCON1bits __attribute__((address(0xFC1)));
 // bitfield macros
-# 4456 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 4456 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: ADCON0
 
 extern volatile unsigned char ADCON0 __attribute__((address(0xFC2)));
@@ -1977,7 +1966,7 @@ typedef union {
 } ADCON0bits_t;
 extern volatile ADCON0bits_t ADCON0bits __attribute__((address(0xFC2)));
 // bitfield macros
-# 4575 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 4575 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: ADRES
 
 extern volatile unsigned short ADRES __attribute__((address(0xFC3)));
@@ -2020,7 +2009,7 @@ typedef union {
 } SSPCON2bits_t;
 extern volatile SSPCON2bits_t SSPCON2bits __attribute__((address(0xFC5)));
 // bitfield macros
-# 4658 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 4658 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: SSPCON1
 
 extern volatile unsigned char SSPCON1 __attribute__((address(0xFC6)));
@@ -2045,7 +2034,7 @@ typedef union {
 } SSPCON1bits_t;
 extern volatile SSPCON1bits_t SSPCON1bits __attribute__((address(0xFC6)));
 // bitfield macros
-# 4728 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 4728 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: SSPSTAT
 
 extern volatile unsigned char SSPSTAT __attribute__((address(0xFC7)));
@@ -2126,7 +2115,7 @@ typedef union {
 } SSPSTATbits_t;
 extern volatile SSPSTATbits_t SSPSTATbits __attribute__((address(0xFC7)));
 // bitfield macros
-# 4949 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 4949 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: SSPADD
 
 extern volatile unsigned char SSPADD __attribute__((address(0xFC8)));
@@ -2166,7 +2155,7 @@ typedef union {
 } T2CONbits_t;
 extern volatile T2CONbits_t T2CONbits __attribute__((address(0xFCA)));
 // bitfield macros
-# 5034 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 5034 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: PR2
 
 extern volatile unsigned char PR2 __attribute__((address(0xFCB)));
@@ -2202,7 +2191,7 @@ typedef union {
 } PR2bits_t;
 extern volatile PR2bits_t PR2bits __attribute__((address(0xFCB)));
 // bitfield macros
-# 5094 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 5094 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // alias bitfield definitions
 typedef union {
     struct {
@@ -2227,7 +2216,7 @@ typedef union {
 } MEMCONbits_t;
 extern volatile MEMCONbits_t MEMCONbits __attribute__((address(0xFCB)));
 // bitfield macros
-# 5144 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 5144 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: TMR2
 
 extern volatile unsigned char TMR2 __attribute__((address(0xFCC)));
@@ -2272,7 +2261,7 @@ typedef union {
 } T1CONbits_t;
 extern volatile T1CONbits_t T1CONbits __attribute__((address(0xFCD)));
 // bitfield macros
-# 5254 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 5254 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: TMR1
 
 extern volatile unsigned short TMR1 __attribute__((address(0xFCE)));
@@ -2341,7 +2330,7 @@ typedef union {
 } RCONbits_t;
 extern volatile RCONbits_t RCONbits __attribute__((address(0xFD0)));
 // bitfield macros
-# 5408 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 5408 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: WDTCON
 
 extern volatile unsigned char WDTCON __attribute__((address(0xFD1)));
@@ -2359,7 +2348,7 @@ typedef union {
 } WDTCONbits_t;
 extern volatile WDTCONbits_t WDTCONbits __attribute__((address(0xFD1)));
 // bitfield macros
-# 5436 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 5436 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: OSCCON2
 
 extern volatile unsigned char OSCCON2 __attribute__((address(0xFD2)));
@@ -2376,7 +2365,7 @@ typedef union {
 } OSCCON2bits_t;
 extern volatile OSCCON2bits_t OSCCON2bits __attribute__((address(0xFD2)));
 // bitfield macros
-# 5468 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 5468 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: OSCCON
 
 extern volatile unsigned char OSCCON __attribute__((address(0xFD3)));
@@ -2404,7 +2393,7 @@ typedef union {
 } OSCCONbits_t;
 extern volatile OSCCONbits_t OSCCONbits __attribute__((address(0xFD3)));
 // bitfield macros
-# 5551 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 5551 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: T0CON
 
 extern volatile unsigned char T0CON __attribute__((address(0xFD5)));
@@ -2429,7 +2418,7 @@ typedef union {
 } T0CONbits_t;
 extern volatile T0CONbits_t T0CONbits __attribute__((address(0xFD5)));
 // bitfield macros
-# 5621 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 5621 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: TMR0
 
 extern volatile unsigned short TMR0 __attribute__((address(0xFD6)));
@@ -2476,7 +2465,7 @@ typedef union {
 } STATUSbits_t;
 extern volatile STATUSbits_t STATUSbits __attribute__((address(0xFD8)));
 // bitfield macros
-# 5713 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 5713 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: FSR2
 
 extern volatile unsigned short FSR2 __attribute__((address(0xFD9)));
@@ -2695,7 +2684,7 @@ typedef union {
 } INTCON3bits_t;
 extern volatile INTCON3bits_t INTCON3bits __attribute__((address(0xFF0)));
 // bitfield macros
-# 5992 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 5992 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: INTCON2
 
 extern volatile unsigned char INTCON2 __attribute__((address(0xFF1)));
@@ -2734,7 +2723,7 @@ typedef union {
 } INTCON2bits_t;
 extern volatile INTCON2bits_t INTCON2bits __attribute__((address(0xFF1)));
 // bitfield macros
-# 6086 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 6086 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: INTCON
 
 extern volatile unsigned char INTCON __attribute__((address(0xFF2)));
@@ -2775,7 +2764,7 @@ typedef union {
 } INTCONbits_t;
 extern volatile INTCONbits_t INTCONbits __attribute__((address(0xFF2)));
 // bitfield macros
-# 6222 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 6222 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: PROD
 
 extern volatile unsigned short PROD __attribute__((address(0xFF3)));
@@ -2897,7 +2886,7 @@ typedef union {
 } STKPTRbits_t;
 extern volatile STKPTRbits_t STKPTRbits __attribute__((address(0xFFC)));
 // bitfield macros
-# 6389 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 6389 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // Register: TOS
 
 
@@ -2926,7 +2915,7 @@ __asm("TOSH equ 0FFEh");
 extern volatile unsigned char TOSU __attribute__((address(0xFFF)));
 
 __asm("TOSU equ 0FFFh");
-# 6430 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/proc/pic18f14k22.h" 3
+# 6430 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/proc/pic18f14k22.h" 3
 // BAUDCON<ABDEN>
 extern volatile __bit ABDEN __attribute__((address(0x7DC0))); // @ (0xFB8 * 8 + 0)
 
@@ -4660,8 +4649,8 @@ extern volatile __bit nW __attribute__((address(0x7E3A))); // @ (0xFC7 * 8 + 2)
 
 // SSPSTAT<nWRITE>
 extern volatile __bit nWRITE __attribute__((address(0x7E3A))); // @ (0xFC7 * 8 + 2)
-# 50 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/pic18_chip_select.h" 2 3
-# 9 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/pic18.h" 2 3
+# 50 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/pic18_chip_select.h" 2 3
+# 9 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/pic18.h" 2 3
 
 
 
@@ -4680,15 +4669,15 @@ __attribute__((__unsupported__("The " "EraseFlash" " routine is no longer suppor
 
 
 
-# 1 "/Applications/microchip/xc8/v3.00/pic/include/errata.h" 1 3
-# 28 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/pic18.h" 2 3
-# 55 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/pic18.h" 3
+# 1 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/errata.h" 1 3
+# 28 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/pic18.h" 2 3
+# 55 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/pic18.h" 3
 //
 // Legacy Programming Macro Functions
 //
-# 91 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/pic18.h" 3
+# 91 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/pic18.h" 3
 // Various helper macros used in EEPROM routines
-# 147 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/pic18.h" 3
+# 147 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/pic18.h" 3
 // MACROS for EEPROM Access
 // EEPROM related functions no longer supported. Use the peripheral library implementation if available
 // or the MPLAB X MCC.
@@ -4701,11 +4690,11 @@ __attribute__((__unsupported__("The " "EraseFlash" " routine is no longer suppor
 __attribute__((__unsupported__("The " "Read_b_eep" " routine is no longer supported. Please use the MPLAB X MCC."))) unsigned char Read_b_eep(unsigned int badd);
 __attribute__((__unsupported__("The " "Busy_eep" " routine is no longer supported. Please use the MPLAB X MCC."))) void Busy_eep(void);
 __attribute__((__unsupported__("The " "Write_b_eep" " routine is no longer supported. Please use the MPLAB X MCC."))) void Write_b_eep(unsigned int badd, unsigned char bdat);
-# 191 "/Applications/microchip/mplabx/v6.20/packs/Microchip/PIC18F-K_DFP/1.13.292/xc8/pic/include/pic18.h" 3
+# 191 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/pic18.h" 3
 // Macros TxRD16ON are no longer supported.
 unsigned char __t1rd16on(void);
 unsigned char __t3rd16on(void);
-# 34 "/Applications/microchip/xc8/v3.00/pic/include/xc.h" 2 3
+# 34 "/Users/mcs-f/.mchp_packs/Microchip/PIC18F-K_DFP/1.7.134/xc8/pic/include/xc.h" 2 3
 # 2 "interrupts.c" 2
 # 1 "./dmx.h" 1
 # 16 "./dmx.h"
@@ -4726,7 +4715,8 @@ __attribute__((inline)) void resetFramingWatchdog() ;
 extern void decrementFramingWatchdog(void);
 # 3 "interrupts.c" 2
 # 14 "interrupts.c"
-void high_priority interrupt high_isr(void) {
+//void high_priority interrupt high_isr(void) {
+void __attribute__((picinterrupt(("high_priority")))) high_isr(void) {
 
 
 
@@ -4736,8 +4726,9 @@ void high_priority interrupt high_isr(void) {
         PIR1bits.RCIF = 0;
     }
 }
-# 32 "interrupts.c"
-void low_priority interrupt low_isr(void) {
+# 33 "interrupts.c"
+//void low_priority interrupt low_isr(void) {
+void __attribute__((picinterrupt(("low_priority")))) low_isr(void) {
 
 
 

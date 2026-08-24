@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=DMX-Dimmer-I2C.X
+PROJECTNAME=dimmer-dmx-pca9685.X
 
 # Active Configuration
 DEFAULTCONF=default
