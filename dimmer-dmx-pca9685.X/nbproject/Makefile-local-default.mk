@@ -14,11 +14,11 @@
 # You can invoke make with the values of the macros:
 # $ makeMP_CC="/opt/microchip/mplabc30/v3.30c/bin/pic30-gcc" ...  
 #
-PATH_TO_IDE_BIN=/Applications/microchip/mplabx/v6.25/MPLAB X IDE v6.25.app/Contents/Resources/mplab_ide/platform/../mplab_ide/modules/../../bin/
+PATH_TO_IDE_BIN=/Applications/microchip/mplabx/v6.35/MPLAB X IDE v6.35.app/Contents/Resources/mplab_ide/platform/../mplab_ide/modules/../../bin/
 # Adding MPLAB X bin directory to path.
-PATH:=/Applications/microchip/mplabx/v6.25/MPLAB X IDE v6.25.app/Contents/Resources/mplab_ide/platform/../mplab_ide/modules/../../bin/:$(PATH)
+PATH:=/Applications/microchip/mplabx/v6.35/MPLAB X IDE v6.35.app/Contents/Resources/mplab_ide/platform/../mplab_ide/modules/../../bin/:$(PATH)
 # Path to java used to run MPLAB X when this makefile was created
-MP_JAVA_PATH="/Applications/microchip/mplabx/v6.25/sys/java/zulu8.80.0.17-ca-fx-jre8.0.422-macosx_aarch64/zulu-8.jre/Contents/Home/bin/"
+MP_JAVA_PATH="/Applications/microchip/mplabx/v6.35/sys/java/zulu8.86.0.25-ca-fx-jre8.0.452-macosx_aarch64/zulu-8.jre/Contents/Home/bin/"
 OS_CURRENT="$(shell uname -s)"
 MP_CC="/Applications/microchip/xc8/v3.10/bin/xc8-cc"
 # MP_CPPC is not defined
@@ -26,7 +26,7 @@ MP_CC="/Applications/microchip/xc8/v3.10/bin/xc8-cc"
 MP_AS="/Applications/microchip/xc8/v3.10/bin/xc8-cc"
 MP_LD="/Applications/microchip/xc8/v3.10/bin/xc8-cc"
 MP_AR="/Applications/microchip/xc8/v3.10/bin/xc8-ar"
-DEP_GEN=${MP_JAVA_PATH}java -jar "/Applications/microchip/mplabx/v6.25/MPLAB X IDE v6.25.app/Contents/Resources/mplab_ide/platform/../mplab_ide/modules/../../bin/extractobjectdependencies.jar"
+DEP_GEN=${MP_JAVA_PATH}java -jar "/Applications/microchip/mplabx/v6.35/MPLAB X IDE v6.35.app/Contents/Resources/mplab_ide/platform/../mplab_ide/modules/../../bin/extractobjectdependencies.jar"
 MP_CC_DIR="/Applications/microchip/xc8/v3.10/bin"
 # MP_CPPC_DIR is not defined
 # MP_BC_DIR is not defined

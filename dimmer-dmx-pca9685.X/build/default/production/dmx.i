@@ -4763,6 +4763,8 @@ void initDMX() {
 
     BAUDCONbits.BRG16 = 1; // Baudratengenerator 16-Bit
 
+  // TXSTA1bits.BRGH = 1;
+
     SPBRG1 = 3; // Baudrate 250000 @ 16MHz
     SPBRGH = 0; //
 
@@ -4836,7 +4838,7 @@ void handleDMX() {
            dmxState = 0x00;
     }
 }
-# 135 "dmx.c"
+# 137 "dmx.c"
 volatile unsigned int dataWatchdog = 0;
 
 __attribute__((inline)) void resetDataWatchdog() {
@@ -4877,7 +4879,7 @@ unsigned char decrementSignalWatchdog() {
         return 1;
     }
 }
-# 183 "dmx.c"
+# 185 "dmx.c"
 volatile unsigned int framingErrorWatchdog = 0;
 
 __attribute__((inline)) void resetFramingWatchdog() {

@@ -46,6 +46,8 @@ void initDMX()  {
     
     BAUDCONbits.BRG16 = 1;     // Baudratengenerator 16-Bit
 
+  //  TXSTA1bits.BRGH   = 1;
+    
     SPBRG1            = 3;     // Baudrate 250000 @ 16MHz
     SPBRGH            = 0;     //
     
